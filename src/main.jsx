@@ -4,11 +4,10 @@ import './index.css'
 import Greeting from './Greeting.jsx'
 import { FavoriteFood } from './FavoriteFood.jsx'
 import TestTitle from './TestTitle.jsx'
+import App from './App.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <Greeting />
-    <FavoriteFood />
-    <TestTitle />
+    <App />
   </StrictMode>,
 )
